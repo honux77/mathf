@@ -2,12 +2,15 @@
   "name": "mathf",
   "version": "0.1.0",
   "description": "JavaScript library that provides constants and static methods for common mathematical functions",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "npx jest --config jestconfig.json",
+    "prepare" : "npm run build",
+    "prepublishOnly" : "npm test && npm run lint",
+    "test": "jest --config jestconfig.json",
+    "preversion" : "npm run lint",
     "build": "tsc",
-    "format": "npx prettier --write \"src/**/*.ts\"",
-    "lint": "npx tslint -p tsconfig.json"
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json"
   },
   "files": ["lib/**/*"],
   "repository": {
