@@ -1,6 +1,6 @@
 {
   "name": "@honux/mathf",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "JavaScript library that provides constants and static methods for common mathematical functions",
   "main": "lib/mathf.js",
   "scripts": {
