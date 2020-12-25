@@ -1,0 +1,17 @@
+{
+  "name": "mathf",
+  "version": "0.1.0",
+  "description": "JavaScript library that provides constants and static methods for common mathematical functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "math",
+    "mathf",
+    "isOdd",
+    "isEven"
+  ],
+  "author": "Hoyoung Jung",
+  "license": "MIT"
+}
